@@ -18,7 +18,7 @@ const Rockets = () => {
   return (
     <div className="rocket">
       {loading ? (
-        <div className="loader"></div> // Display loader while rockets are being fetched
+        <div className="loader" /> // Display loader while rockets are being fetched
       ) : (
         rockets.map((rocket) => {
           const {
@@ -27,11 +27,15 @@ const Rockets = () => {
 
           return (
             <div key={id} className="eachRocket container">
-              <div className="rocket-top"></div> {/* Additional div on top of each container */}
+              <div className="rocket-top" />
+              {' '}
+              {/* Additional div on top of each container */}
               <img src={images} alt="rocket" className="rocket-image" />
               <div className="rocket-info">
                 <h3>{name}</h3>
-                <div className="reserve-content"> {/* Wrap text and button in a div */}
+                <div className="reserve-content">
+                  {' '}
+                  {/* Wrap text and button in a div */}
                   <p className="reserve-sect">
                     {reserved && (
                       <span className="rev-word">

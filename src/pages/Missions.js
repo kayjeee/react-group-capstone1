@@ -20,7 +20,9 @@ export default function Missions() {
             <th>Name</th>
             <th>Description</th>
             <th>Status</th>
-            <th>Action</th> {/* New column for active member and leave mission buttons */}
+            <th>Action</th>
+            {' '}
+            {/* New column for active member and leave mission buttons */}
           </tr>
         </thead>
         <tbody>
@@ -40,7 +42,9 @@ export default function Missions() {
                   </>
                 )}
               </td>
-              <td className="mission-action-cell"> {/* New column for active member and leave mission buttons */}
+              <td className="mission-action-cell">
+                {' '}
+                {/* New column for active member and leave mission buttons */}
                 {!mission.joined && (
                   <button
                     type="button"

@@ -5,7 +5,8 @@ import './Header.css';
 
 export default function NavBar() {
   return (
-    <header className="flex">>
+    <header className="flex">
+      >
       <div className="logo-details flex">
         <img src={logo} alt="" />
         <h1>Space Traveler&apos;s Hub</h1>

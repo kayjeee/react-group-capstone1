@@ -8,7 +8,9 @@ import NotMatch from './components/noMatch';
 
 function App() {
   return (
-    <div className="App full-screen"> {/* Add the "full-screen" class */}
+    <div className="App full-screen">
+      {' '}
+      {/* Add the "full-screen" class */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Rockets />} />

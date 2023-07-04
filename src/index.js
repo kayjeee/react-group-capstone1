@@ -11,7 +11,9 @@ const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router> {/* Wrap your components with the Router */}
+      <Router>
+        {' '}
+        {/* Wrap your components with the Router */}
         <App />
       </Router>
     </Provider>
