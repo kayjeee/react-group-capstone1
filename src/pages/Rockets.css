@@ -1,0 +1,94 @@
+/* Loader */
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 6px solid #ccc;
+  border-top-color: #000;
+  animation: spin 1s linear infinite;
+}
+
+/* Rocket Container */
+.rocket {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+/* Rocket Image */
+.rocket-image {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  border: 4px solid #000;
+}
+
+/* Rocket Info */
+.rocket-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.75rem;
+}
+
+.reserveBtn {
+  /* border: none; */
+  background-color: #0e72ed;
+  color: #fff;
+  padding: 0.5rem 1rem; /* Added padding on the left and right */
+  width: 9rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* transition: background-color 0.3s ease; */
+}
+
+.reserveBtn:hover {
+  background-color: #0c5bbf;
+}
+
+/* Cancel Booking Button */
+.cancel-book {
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem;
+  width: 9rem;
+  border: 2px solid #000;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-book:hover {
+  background-color: #e6e6e6;
+}
+
+/* Each Rocket Container */
+.eachRocket {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Extra Space above Rocket Container */
+.rocket-top {
+  height: 12rem;
+}
+
+/* Animation Keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
