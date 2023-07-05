@@ -1,0 +1,38 @@
+
+.img-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid rgb(35, 35, 35);
+}
+
+.logo-details {
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.list-container {
+  gap: 2rem;
+}
+
+.list-container li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.active {
+  text-decoration: underline;
+}

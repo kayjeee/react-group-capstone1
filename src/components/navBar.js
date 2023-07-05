@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import planet from '../planet.png';
+import './Header.css';
 
 const links = [
   { path: '/', text: 'Rockets' },

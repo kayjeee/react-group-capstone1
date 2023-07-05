@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { updateReserve, removeReserve } from '../features/rockets/rocketSlice';
+import './Rocket.css';
 
 const RocketItem = ({ rocket }) => {
   const dispatch = useDispatch();

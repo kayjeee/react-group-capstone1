@@ -1,0 +1,86 @@
+/* Colors */
+:root {
+  --border-color: #ccc;
+  --error-color: red;
+  --primary-color: #999;
+  --secondary-color: lightseagreen;
+  --success-color: green;
+}
+
+/* Table Styles */
+.missionTable {
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.missionTable::before,
+.missionTable::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--border-color);
+  pointer-events: none;
+}
+
+.missionTable::before {
+  z-index: 1;
+}
+
+.missionTable thead {
+  background-color: #ddd;
+}
+
+.missionTable tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.missionTable th,
+.missionTable td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+/* Badge Styles */
+.status-badge {
+  background: var(--primary-color);
+  border-radius: 0.25rem;
+  color: white;
+  display: block;
+  font-size: 0.65rem;
+  font-weight: bold;
+  min-width: 8rem;
+  padding: 0.15rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.status-badge.joined {
+  background-color: var(--secondary-color);
+}
+
+/* Action Button Styles */
+.action-button {
+  border: 1px solid #777;
+  border-radius: 0.5rem;
+  display: block;
+  text-align: center;
+  padding: 0.25rem;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  min-width: 8rem;
+}
+
+.action-button.join-button {
+  color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.action-button.leave-button {
+  color: var(--error-color);
+  border-color: var(--error-color);
+}
