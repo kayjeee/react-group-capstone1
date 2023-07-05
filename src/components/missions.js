@@ -15,11 +15,10 @@ export default function Missions() {
 
   return (
     <section className="container">
-      <h2>Missions</h2>
       <table className="missionTable">
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Mission</th>
             <th>Description</th>
             <th>Status</th>
           </tr>
