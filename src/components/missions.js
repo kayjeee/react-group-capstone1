@@ -22,7 +22,6 @@ export default function Missions() {
             <th>Name</th>
             <th>Description</th>
             <th>Status</th>
-            <th>Action</th>
           </tr>
         </thead>
         <tbody>
