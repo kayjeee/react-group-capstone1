@@ -8,19 +8,19 @@ export default function Missions() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (!missions.length) dispatch(fetchMissions());
-  }, []);
+    if (!missions.length) {
+      dispatch(fetchMissions());
+    }
+  }, [dispatch, missions.length]);
 
   return (
     <section className="container">
-      <h2>Missions</h2>
       <table className="missionTable">
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Mission</th>
             <th>Description</th>
             <th>Status</th>
-            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -46,6 +46,7 @@ export default function Missions() {
                     type="button"
                     className="action-button join-button"
                     onClick={() => dispatch(joinMission(mission.id))}
+                    aria-label={`Join Mission ${mission.name}`}
                   >
                     Join Mission
                   </button>
@@ -55,6 +56,7 @@ export default function Missions() {
                     type="button"
                     className="action-button leave-button"
                     onClick={() => dispatch(leaveMission(mission.id))}
+                    aria-label={`Leave Mission ${mission.name}`}
                   >
                     Leave Mission
                   </button>
