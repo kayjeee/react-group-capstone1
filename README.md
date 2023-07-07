@@ -1,209 +1,126 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="calculator.png" alt="logo" width="140"  height="auto" /> -->
-  <br/>
-
-  <h3><b>react-group-capstone1README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-
-# 📖 react-group-capstone1 <a name="about-project"></a>
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Space Travelers' Hub ](#-space-travelers-hub-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 
-**react-group-capstone1**"react-group-capstone1" is a website for all fans of react and redux. It is a Single Page App (SPA) that allows users to
 
-Navigate pages by clicks
-
-  <!-- <img src="calculator.png" alt="logo" width="100"  height="auto" />-->
+# 📖 Space Travelers' Hub <a name="about-project"></a>
 
 
+**Space Travelers' Hub** this a react based application that consumes two API'S ie the rockets and missions api to display data on the components. a user can reserve rockets and also join a mission respectively
 ## 🛠 Built With <a name="built-with"></a>
-- React
-- Node
-- Redux
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>React</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
+  <summary>Jreact</summary>
+  <summary>Linters</summary>
+  <summary>Github</summary>
+   <summary>nodejs</summary>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> The application fetches data from API
-
-- **[Fetch data from API]**
+- **use react**
+- **used flex-box**
+- **used grids**
+- **fetch data from api**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> the link to the deployed project.
+
+- [coming soon]()
+- 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps. It's a simple project.
 
 ### Prerequisites
+In order to run this project you need:
+- A browser that supports html5 and css3
 
-To run a cloned Create React App project, follow these steps:
+### Install
 
-1. Open your terminal or command prompt.
+- cd [my-folder]
+- [git clone] (git@github.com:kayjeee/react-group-capstone1.git)
+- cd [repo-name]
+- code .
 
-2. Navigate to the root directory of the cloned project using the `cd` command. For example, if the project is located in a folder called "my-app", use:
+### Usage
 
-  ```shell
-   cd my-app
-  ```
-Once you are in the project's directory, install the project dependencies by running the following command:
-```
-npm install
-```
-This will fetch and install all the necessary packages and dependencies specified in the project's package.json file.
-
-After the installation is complete, you can start the development server by running the following command:
-```
-npm start
-```
-This will compile the project and start a local development server. You should see output indicating that the server is running and listening for requests.
-
-Open your web browser and visit http://localhost:3000. You should see your Create React App project running and can interact with it in the browser.
-
-During development, the server will automatically reload the app whenever you make changes to the source code. Simply save your changes, and the browser will update to reflect those changes.
-
-Remember to keep the terminal or command prompt window open while running the development server. You can stop the server at any time by pressing Ctrl + C in the terminal or command prompt.
-
-That's it! You can now explore, modify, and test your cloned Create React App project on your local machine.
-
-### Setup
-Clone this repository to your desired folder:
-
-```
-cd my-folder
-git clone git@github.com:myaccount/my-project.git
-```
-Install
-Install this project with:
-
-```
-cd my-project
-npm install
-
-```
-Usage
-To run the project, execute the following command:
-
-```
-npm start
-
-```
+- install live server extension on vs code
+- run npm install in the root directory of your folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-> 
+👤 **Okongo Derrick**
+    
+- GitHub: [@derrick14](https://github.com/derrick1451)
+- Twitter: [@derrick14](https://twitter.com/DerrickHayle)
+- LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick-a0147622b/)
+  
   👤 **Kagiso Sebogodi**
     
 - GitHub: [@Kagiso Sebogodi](https://github.com/kayjeee)
 - LinkedIn: [Kagiso Sebogodi](https://www.linkedin.com/in/kagiso-sebogodi/)
 
-👤 **Derrick **
-    
-- GitHub: [@Kderrick](https://github.com/derrick1451)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
->I will be building your "Math magicians" website for more than a whole week. Here is the list of projects that will guide me through the steps described above. . In some of the projects, I will be working collaboratively by using pair programming.
+- **improve on the typography**
+- **add a reservation button**
+- **use next.js**
+- **Enhance the My Profile section by adding the "Read more" button**
 
-- [Project 2:] **[Components.]**
-- [Project 3:] **[ Events.]**
-- [ Project 4:] **[ Fetch data from API.]**
-- [Project 5:] **[Full website.]**
-- [Project 6:] **[Tests (pair programming).]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+I'm open to any suggestions about this project.
+
+Feel free to check the [issues page](https://github.com/kayjeee/react-group-capstone1/issues).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show your support <a name="support"></a>
-If you find this project valuable and useful, I would greatly appreciate your support. Here are a couple of ways you can show your support:
 
-Follow Me on GitHub: Stay updated with my latest projects and contributions by following me on GitHub. You can find my profile here.
-
-Star the Project: If you think this project deserves recognition, please consider giving it a star on GitHub. Your star helps to increase its visibility and encourages others to explore and use it. You can star the project here below and follow me
-### Our GitHub profiles: Follow us and we follow Back🤞
- [kayjeee](https://github.com/kayjeee)
- <br>
- [derrick](https://github.com/derrick1451)
-
-### GitHub Project Link:(⊙_⊙;)
- [Micro_Verse_React_Maths_Mathematician_App](https://github.com/kayjeee/react-group-capstone1)
-
-Thank you for your support and encouragement. It means a lot to me as a developer. If you have any feedback or suggestions, feel free to reach out. Together, we can make this project even better!
-
-Keep coding and stay awesome! 👨‍💻✨
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+If you like this project don't hesitate to give it a star. ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to express my heartfelt gratitude and give credit to the following GitHub users who have inspired and contributed to this project:
 
-https://github.com/derrick1451: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
-https://github.com/Simpleshaikh1: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.
-https://github.com/AbdelazizSoliman: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
-https://github.com/bronnie313: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.
-
-If I inadvertently missed anyone who deserves acknowledgment, please accept my apologies and know that your contributions are greatly appreciated.
+I want to give special thanks to Microverse for the great opportunity given to me to realise my dreams.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
