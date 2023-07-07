@@ -10,27 +10,23 @@ const MyProfile = () => {
     <section className="profile-section">
       <div className="missions">
         <h2>My Missions</h2>
-        {updateMissions === '' ? <p>reserved missions is currently empty</p> : (
-          <ul className="profile-list">
-            {updateMissions.map((mission) => (
-              <li key={mission.mission_id}>
-                {mission.mission_name}
-              </li>
-            ))}
-          </ul>
-        )}
+        <ul className="profile-list">
+          {updateMissions.map((mission) => (
+            <li key={mission.mission_id}>
+              {mission.mission_name}
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="missions">
         <h2>My Rockets</h2>
-        {reserveRocket === '' ? <p>reserved rockets is currently empty</p> : (
-          <ul className="profile-list">
-            {reserveRocket.map((rocket) => (
-              <li key={rocket.id}>
-                {rocket.name}
-              </li>
-            ))}
-          </ul>
-        )}
+        <ul className="profile-list">
+          {reserveRocket.map((rocket) => (
+            <li key={rocket.id}>
+              {rocket.name}
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

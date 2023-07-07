@@ -5,12 +5,19 @@ import './missions.css';
 
 const Missions = () => {
   const dispatch = useDispatch();
-  const { missions } = useSelector((state) => state.missions);
+  const { missions, isLoading, error } = useSelector((state) => state.missions);
   useEffect(() => {
     if (!missions.length) {
       dispatch(fetchMissions());
     }
   }, [dispatch, missions.length]);
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+  if (error) {
+    return <p>Something went wrong...</p>;
+  }
+
   return (
     <section className="container">
       <table className="missionTable">

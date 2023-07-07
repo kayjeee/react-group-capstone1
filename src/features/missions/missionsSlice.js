@@ -18,6 +18,7 @@ export const fetchMissions = createAsyncThunk(
 const initialState = {
   missions: [],
   isLoading: false,
+  error: false,
 };
 
 const missionsSlice = createSlice({
@@ -56,6 +57,7 @@ const missionsSlice = createSlice({
     });
     builders.addCase(fetchMissions.rejected, (state) => {
       state.isLoading = false;
+      state.error = true;
     });
   },
 

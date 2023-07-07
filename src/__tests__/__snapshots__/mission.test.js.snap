@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Interactions test will test user interaction 1`] = `
+<section
+  className="container"
+>
+  <table
+    className="missionTable"
+  >
+    <thead>
+      <tr>
+        <th>
+          Mission
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</section>
+`;
