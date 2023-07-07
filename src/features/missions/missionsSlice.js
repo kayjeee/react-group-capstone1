@@ -10,7 +10,7 @@ export const fetchMissions = createAsyncThunk(
       const response = await axios.get(API_URL);
       return response.data;
     } catch (error) {
-      return error.message
+      return error.message;
     }
   },
 );
@@ -29,7 +29,6 @@ const missionsSlice = createSlice({
         if (mission.mission_id !== action.payload) return mission;
         return { ...mission, reserved: true };
       });
-      
     },
 
     leaveMission: (state, action) => {
