@@ -5,7 +5,6 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [Video presentation Link](#video-presentation-link)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Install](#install)
@@ -53,11 +52,6 @@
 - 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Video presentation Link
-
- [link](https://drive.google.com/file/d/1wDuAy13O13CUaOgMJsHIMNwyzkaqJigV/view?usp=sharing)
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps. It's a simple project.
@@ -69,9 +63,9 @@ In order to run this project you need:
 ### Install
 
 - cd [my-folder]
--[git clone] (git@github.com:kayjeee/Group-capstone.git)
--cd [repo-name]
--code .
+- [git clone] (git@github.com:kayjeee/react-group-capstone1.git)
+- cd [repo-name]
+- code .
 
 ### Usage
 
@@ -84,7 +78,7 @@ In order to run this project you need:
 
 👤 **Okongo Derrick**
     
-- GitHub: [@derrick14](https://github.com/derrick14/51)
+- GitHub: [@derrick14](https://github.com/derrick1451)
 - Twitter: [@derrick14](https://twitter.com/DerrickHayle)
 - LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick-a0147622b/)
   
@@ -99,7 +93,8 @@ In order to run this project you need:
 
 - **improve on the typography**
 - **add a reservation button**
-- **use es6 modules**
+- **use next.js**
+- **Enhance the My Profile section by adding the "Read more" button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +111,7 @@ Feel free to check the [issues page](https://github.com/kayjeee/Group-capstone/i
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project don't hesitate to give it a start. ⭐️
+If you like this project don't hesitate to give it a star. ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
