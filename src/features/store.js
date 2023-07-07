@@ -8,4 +8,5 @@ const store = configureStore({
     missions: missionReducer,
   },
 });
+
 export default store;
